@@ -1,8 +1,8 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
-  --main-font: Inter, 'Segoe UI', Roboto, sans-serif;
-  --accent-font: 'Press Start 2P', 'Courier New', 'Lucida Console', monospace;
+  --main-font: Inter, "Segoe UI", Roboto, sans-serif;
+  --accent-font: "Press Start 2P", "Courier New", "Lucida Console", monospace;
   --font-weight-normal: 410;
   --font-weight-bold: 715;
   --main-font-size: 18px;
@@ -14,7 +14,8 @@
   --main-color: #000;
   --bg-color: #fff;
   --content-block-width: clamp(375px, 30.5vw + 261px, 700px);
-  --text-stroke-color: #ffffff80;
+  --header-padding-block: clamp(122px, 5.56vw + 100px, 130px);
+  --text-stroke-color: #fff;
   --main-border: 2px solid var(--main-color);
   --heart-contour-color: #000;
   --animation-fill-color: #f00;
