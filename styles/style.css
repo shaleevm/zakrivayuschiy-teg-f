@@ -19,7 +19,7 @@
   background-attachment: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-variation-settings: 'wght' var(--font-weight-normal);
+  font-variation-settings: "wght" var(--font-weight-normal);
 }
 
 .header {
@@ -71,7 +71,7 @@
   padding-inline: 10px;
   padding-block: 6px;
   font-size: var(--main-font-size);
-  font-variation-settings: 'wght' var(--font-weight-bold);
+  font-variation-settings: "wght" var(--font-weight-bold);
 }
 
 .image-wrapper {
@@ -199,6 +199,7 @@
 .floppy-icon_fill {
   width: 21px;
   height: 21px;
+  fill: var(--bg-color);
 }
 
 .popup-dialog {
@@ -260,10 +261,6 @@
   }
 }
 
-.floppy-icon_fill {
-  fill: var(--bg-color);
-}
-
 .text-button {
   position: relative;
   transition: box-shadow 0.3s ease;
@@ -275,7 +272,7 @@
 }
 
 .text-button::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
